@@ -1,7 +1,8 @@
-#Shopping List Duplicate remover 
+#Shopping List Dup remover
 #This code is protected by Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 #Code made by: Clinggi5
 print ('What would you like to add?  Simply type \'done\' to finish the list') #allows the user to add items to the list
+myList = []
 while True:
 	a = input() #Input adds to the list
 	a = a.lower() #Set the item to lowercase
@@ -10,9 +11,9 @@ while True:
 		break
 print ('Your list is:')	
 myList.pop() #Removes 'done' from the list
-final = [] #definces the final loop
+final = [] #defines the final loop
 for stuff in myList: 
 	if stuff not in final: #Checks for dups
 		final.append(stuff) #Removes the dups
 for items in final:
-	print (items) #prints the loop
+	print (items) #prints the final list
