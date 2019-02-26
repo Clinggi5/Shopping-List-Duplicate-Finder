@@ -1,6 +1,6 @@
 #Shopping List Dup remover
 #This code is protected by Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-#Code made by: Clinggi5
+#Code written by: Clinggi5 
 print ('What would you like to add?  Simply type \'done\' to finish the list') #allows the user to add items to the list
 myList = []
 while True:
